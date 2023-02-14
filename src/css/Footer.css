@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons {
+  margin-left: 20px;
+}
+
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "lucida sans unicode", "lucida grande", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #3f3a68;
+}
+
+.copyright {
+  width: 15px;
+}
+
+@media (max-width: 390px) {
+  .footer {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr);
+    gap: 22px;
+  }
+}

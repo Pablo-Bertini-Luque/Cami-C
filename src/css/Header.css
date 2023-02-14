@@ -1,0 +1,26 @@
+.root {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  box-sizing: border-box;
+}
+
+.icons:hover {
+  color: rgb(255, 0, 55);
+}
+
+.container-logo {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 300px;
+}

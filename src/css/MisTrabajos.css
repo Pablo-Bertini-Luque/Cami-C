@@ -1,0 +1,16 @@
+.root {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container-header-trabajos {
+  min-height: calc(100vh - 80vh - 10vh);
+}
+
+.container-main-trabajos {
+  min-height: calc(100vh - 10vh - 10vh);
+}
+
+.container-footer-trabajos {
+  min-height: calc(100vh - 80vh - 10vh);
+}

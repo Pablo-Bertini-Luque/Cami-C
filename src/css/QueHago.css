@@ -1,0 +1,69 @@
+.root {
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container-cursos-home {
+  min-height: calc(100vh - 80vh - 10vh);
+}
+
+.container-cursos-main {
+  min-height: calc(100vh - 10vh - 10vh);
+}
+
+.container-cursos-text {
+  width: 750px;
+  margin: 30px auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-cursos {
+  font-weight: bold;
+  color: #3f3a68;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.container-cursos-footer {
+  min-height: calc(100vh - 80vh - 10vh);
+}
+
+@media (max-width: 390px) {
+  .container-cursos-text {
+    padding: 40px;
+    margin: 30px auto;
+    width: 300px;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 720px) {
+  .container-cursos-text {
+    margin: 30px auto;
+    width: 400px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 820px) {
+  .container-cursos-text {
+    margin: 50px auto;
+    width: 400px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 820px) {
+  .container-cursos-text {
+    margin: 50px auto;
+    width: 400px;
+  }
+}
+
+@media (min-width: 900px) {
+  .container-cursos-text {
+    margin: 70px auto;
+    width: 900px;
+  }
+}
