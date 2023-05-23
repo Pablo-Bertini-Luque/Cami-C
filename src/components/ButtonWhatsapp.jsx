@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import "../css/IconWhatsapp.css";
-import { Link, Navigate } from "react-router-dom";
 
 function ButtonWhatsapp() {
   return (

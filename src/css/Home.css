@@ -4,15 +4,15 @@ root {
 }
 
 body {
-  background: #8e83cd;
-  background: -moz-linear-gradient(left, #8e83cd 0%, #ab9ef7 26%, #bbbcf7 100%);
+  background: #f9e4b7;
+  background: -moz-linear-gradient(left, #f9e4b7 0%, #f8e3b6 83%, #fbfbfb 100%);
   background: -webkit-linear-gradient(
     left,
-    #8e83cd 0%,
-    #ab9ef7 26%,
-    #bbbcf7 100%
+    #f9e4b7 0%,
+    #f8e3b6 83%,
+    #fbfbfb 100%
   );
-  background: linear-gradient(to right, #8e83cd 0%, #ab9ef7 26%, #bbbcf7 100%);
+  background: linear-gradient(to right, #f9e4b7 0%, #f8e3b6 83%, #fbfbfb 100%);
 }
 
 .container-header-home {
