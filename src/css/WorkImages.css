@@ -23,3 +23,11 @@ ul {
   border-color: orange;
   transform: scale(2);
 }
+
+@media (min-width: 100px) and (max-width: 720px) {
+  .image:hover {
+    border-color: orange;
+    margin: auto;
+    transform: scale(1.9);
+  }
+}
