@@ -15,10 +15,10 @@ function Home() {
           <Navbar />
         </header>
         <main className="container-main-home">
-          <div className="container-main-image">
+          <section className="container-main-image">
             <img className="cami" src={Cami} alt="" />
-          </div>
-          <div className="container-text">
+          </section>
+          <section className="container-text">
             <p className="text">
               <span>
                 Hola, soy Cami: maquilladora profesional y creadora de contenido
@@ -46,10 +46,10 @@ function Home() {
             <p className="text">
               Esta es mi propuesta, mi propósito. Sean bienvenidos! ✨️💓
             </p>
-          </div>
-          <div>
+          </section>
+          <section>
             <ButtonWhatsapp />
-          </div>
+          </section>
         </main>
         <footer className="container-footer-home">
           <Footer />

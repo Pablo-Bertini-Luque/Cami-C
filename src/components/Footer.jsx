@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../assets/Img/Logotipo Morado.png";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { GrInstagram } from "react-icons/gr";
@@ -10,15 +9,15 @@ function Footer() {
   return (
     <>
       <hr />
-      <div className="footer">
-        <div>
+      <footer className="footer">
+        <section>
           <img src={logo} alt="logo" style={{ width: "100px" }} />
-        </div>
-        <div className="container-center">
+        </section>
+        <section className="container-center">
           <p className="text">Todos los derechos reservados</p>
           <AiOutlineCopyrightCircle className="copyright" />
-        </div>
-        <div>
+        </section>
+        <section>
           <a
             className="icons"
             href="https://www.instagram.com/camiclericomakeup/"
@@ -28,8 +27,8 @@ function Footer() {
           <a className="icons" href="https://www.tiktok.com/@camicmakeup">
             <IoLogoTiktok />
           </a>
-        </div>
-      </div>
+        </section>
+      </footer>
     </>
   );
 }

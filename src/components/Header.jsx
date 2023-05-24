@@ -18,9 +18,9 @@ function HeaderLogo() {
           <IoLogoTiktok />
         </a>
       </section>
-      <div className="container-logo">
+      <section className="container-logo">
         <img className="logo" src={Logo} alt="" />
-      </div>
+      </section>
     </>
   );
 }
